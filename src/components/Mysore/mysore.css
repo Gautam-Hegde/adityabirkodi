@@ -1,0 +1,29 @@
+.my-sore{
+    background-color: var(--bg-red);
+    /* background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg); */
+    background-image: url("../../common/images/feel1.jpg");
+}
+
+
+@media all and(max-width:1279px)
+{
+    .my-sore{
+        background-position: center bottom;
+    }
+}
+@media all and(max-width:767px)
+{
+    .my-sore{
+        /* background-image: url("./im1.jpeg"); */
+        background-position: right center;
+        padding: 195px 40px 90px;
+        min-height: 1150px;
+
+    }
+    .my-sore-heading{
+        padding-bottom: 400px;
+    }
+    .my-sore-heading-description{
+        margin-top: 100px;
+    }
+}

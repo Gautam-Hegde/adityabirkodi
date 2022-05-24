@@ -1,0 +1,23 @@
+.ok-bye {
+    background-color: var(--bg-red);
+    background-image: url('../../common/images/squ.jpg');
+  }
+  
+  @media all and (max-width: 1279px) {
+    .ok-bye {
+      background-position: center bottom;
+    }
+  }
+  
+  @media all and (max-width: 767px) {
+    .ok-bye {
+      background-image: url('../../common/images/im1.jpeg');
+      min-height: 600px;
+      background-position: right center;
+    }
+    .ok-bye-heading{
+        padding-top:19.5%;
+        /* margin-top: 10px; */
+    }
+  }
+  

@@ -1,0 +1,20 @@
+.a-experience {
+  background-color: var(--bg-red);
+  background-image: url('../../common/images/im5.jpeg');
+}
+
+@media all and (max-width: 1279px) {
+  .a-experience {
+    background-position: center bottom;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .a-experience {
+    background-image: url('../../common/images/im3.jpeg');
+    min-height: 600px;
+    background-position: right center;
+  }
+  
+  }
+

@@ -1,0 +1,33 @@
+.product-showcase{
+    width: 100vw;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+    background-image:url( https://web-images.credcdn.in/_next/assets/images/home-page/hero-bg.png);
+    background-size: cover;
+    background-position: right top;
+
+}
+.showcase-wrapper{
+    min-height: 70%;
+}
+.showcase-ui{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+}
+.showcase-mockup-1{
+    width: 100vw;
+    height: auto;
+    transform: translate(-51%,32%);
+    /* z-index: 98; */
+}
+@media all and(max-width:1279px)
+{
+    .product-showcase{
+        height: 450px;
+    }
+    .showcase-ui{
+        width: 170px;
+    }
+}

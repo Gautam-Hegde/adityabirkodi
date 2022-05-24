@@ -1,0 +1,19 @@
+.pea-hen {
+    background-color: var(--bg-red);
+    background-image: url('../../common/images/brd.jpg');
+  }
+  
+  @media all and (max-width: 1279px) {
+    .pea-hen {
+      background-position: center bottom;
+    }
+  }
+  
+  @media all and (max-width: 767px) {
+    .pea-hen {
+      background-image: url('../../common/images/peah.jpeg');
+      min-height: 600px;
+      background-position: right center;
+    }
+  }
+  
