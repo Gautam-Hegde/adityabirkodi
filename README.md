@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# It is a Single-Page-Application(SPA),image showcasing portfoilo website built using Reactjs and MaterialUI.
+## The UI has a clear, simple, and user-friendly interface. It uses neumorphism, a style that has dominated interface design. A fresh approach to skeuomorphic design is neumorphism.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
